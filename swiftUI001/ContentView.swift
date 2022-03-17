@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView1: View {
+struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
